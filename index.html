@@ -6,28 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous"/>
     <script src="js/main.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </head>
 
 <body>
-    <div>
-        <header id='header'>
-            <img src="" id='header-img' alt="image">
-            <nav id='nav-bar'>
-                <a href='#section' class='nav-link'></a>
-                <a href='#section' class='nav-link'></a>
-                <a href='#section' class='nav-link'></a>
-            </nav>
-        </header>
-        <main>
-            <video height='240' width='320'></video>
-        </main>
-        <footer>
+    <header id='header'>
+        <nav class='nav-bar' id='nav-bar'>
+                    <img src="https://i.imgur.com/IlTFfEx.jpg" id='header-img' class='top-img' alt="image">
+            <div class='nav-link-group'>
+                    <a href='#features-title' class='nav-link'>Features</a>
+                    <a href='#vid-title' class='nav-link'>About</a>
+                    <a href='#purchase-title' class='nav-link'>Purchase</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class='title-page'>
+            <h1 id='title-name'>Might Be A Coffee Company</h1>
+        </div>
+        <article class='container features-section'>
+            <h1 id='features-title'>Some of Our Outstanding Features:</h1>
+            <ul class='features' id='features-list'>
+                <li>Reasonable shipping time</li>
+                <li>Safe for phenylketonurics</li>
+                <li>Competitive pricing</li>
+                <li>Environmentally friendly</li>
+                <li>Lowers carbon emissions</li>
+            </ul>
+        </article>
+        <article class='text-center video-section container'>
+            <h1 id='vid-title'>How Our Vision Came to Be:</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5-sfG8BV8wU?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen id='video'></iframe>
+        </article>
+        <article class='text-center'>
+            <h1 id='purchase-title'>Purchasing Options:</h1>
+            <section class='purchase-section'>
+                <div class='item-option'>
+                    <h2>Plan A</h2>
+                    <div>
+                        <i class="fab fa-app-store fa-3x"></i>
+                        <p>$19.99/mo<hr>
+                        Recommended for most applications<br>
+                        Easy to set up and use</p>
+                        <button class='btn btn-outline-primary btn-lg'>View</button>
+                    </div>
+                </div>
+                <div class='item-option'>
+                    <h2>Plan B</h2>
+                    <div>
+                          <i class="fab fa-app-store-ios fa-3x"></i>
+                          <p>$29.99/mo<hr>
+                            Recommended for experienced users<br>
+                            More involved operation</p>
+                            <button class='btn btn-outline-primary btn-lg'>View</button>
+                    </div>
+                </div>
+            </section>
 
-        </footer>
-    </div>
+        </article>
+        <article class='text-center contact-section'>
+            <h1>Request Updates From Us!</h1>
+            <form id='form' action="https://www.freecodecamp.com/email-submit" target="_blank">
+                <label for="email">Enter Your Email Below:</label><br>
+                <input type="email" placeholder="email@example.com" name='email' id='email' required>
+                <input type="submit" id='submit' value='Submit'>
+            </form>
+        </article>
+    </main>
+    <footer class='footer-section text-center'>
+            Might Be A Coffee Company 2018
+    </footer>
 </body>
 
 </html>

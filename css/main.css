@@ -1,0 +1,115 @@
+.nav-bar{
+    display: flex;
+    background-color: rgb(141, 206, 206);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+.top-img{
+    height: 50px;
+    width: auto;
+}
+
+.nav-link-group{
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.nav-link, .nav-link:visited, .nav-link:active, .nav-link:link{
+    color: rgb(227, 255, 255);
+}
+
+.nav-link:hover {
+    background-color: rgb(188, 226, 226);
+    color: rgb(94, 172, 172) !important;
+}
+
+body, html{
+    height: 100%;
+}
+
+.title-page{
+    background-image: url('https://images.unsplash.com/photo-1459257868276-5e65389e2722?ixlib=rb-0.3.5&s=f56c4ef15e3f85630a029f1d2c414b59&auto=format&fit=crop&w=1050&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+#title-name{
+    height: 100vh;
+    font-size: 60pt !important;
+    font-family: 'Poiret One', cursive;
+}
+
+h1{
+    font-size: 20pt;
+    margin-top: 30px;
+    padding: 2em;
+    text-align: center;
+ }
+
+#features-list{
+    font-size: 16pt;
+    height: 7em;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around;
+    font-weight: bold;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.features-section{
+    padding: 15em;
+}
+
+.video-section{
+    background-color: rgb(218, 255, 255);
+    border-radius: 10%;
+    padding-bottom: 7em;
+}
+
+.purchase-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5em;
+}
+
+h2{
+    padding:20px;
+}
+
+.item-option{
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 1px 4px 6px 0 gray; 
+}
+
+.contact-section{
+    background-image: url('https://images.unsplash.com/photo-1426260193283-c4daed7c2024?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=510736e9d9454f5184f4eed1d5b005b0&auto=format&fit=crop&w=1355&q=80');
+    padding: 20em;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+label{
+    font-size: 18pt;
+}
+
+.footer-section{
+    width: 100%;
+    height: 50px;
+    color: rgb(80, 126, 133);
+    background-color:rgb(141, 206, 206) 
+}
